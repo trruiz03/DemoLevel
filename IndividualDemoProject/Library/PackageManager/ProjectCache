@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638028503752621995
-    m_Hash: 1140359583
+      ticks: 638028687941429988
+    m_Hash: 3341230957
   m_LockFileStatus:
     m_FilePath: D:/School/GitHub/DemoLevel/IndividualDemoProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638028503752960409
+      ticks: 638028691157632637
     m_Hash: 3356515661
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -682,7 +682,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
   errors: []
@@ -758,7 +758,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637804266210000000
   documentationUrl: 
@@ -950,7 +950,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 4
@@ -1069,7 +1069,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637789039180000000
   documentationUrl: 
@@ -3352,7 +3352,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Provides internal registration mechanism for standalone subsystems. 
     It allows a standalone subsystem to inform the Subsystem Manager of its existence.
   status: 4
@@ -3390,7 +3390,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637314426150000000
   documentationUrl: 
@@ -3729,18 +3729,9 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
     - 1.0.3
-    - 2.0.0
-    - 2.0.1
     compatible:
     - 1.0.3
-    - 2.0.0
-    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
@@ -3754,12 +3745,12 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
@@ -3839,7 +3830,6 @@ m_ResolvedPackages:
     - 2.0.0-preview.4
     - 2.0.0-preview.5
     - 2.0.2-preview.1
-    - 2.2.0-preview.1
     - 3.0.0-pre.1
     - 3.0.0-pre.2
     - 3.0.0-pre.4
@@ -3848,12 +3838,10 @@ m_ResolvedPackages:
     - 3.0.2
     - 3.1.1
     - 3.2.1
-    - 3.2.2-pre.1
     compatible:
     - 3.0.2
     - 3.1.1
     - 3.2.1
-    - 3.2.2-pre.1
     verified: 3.0.2
   dependencies:
   - name: com.unity.xr.management
@@ -4087,7 +4075,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4122,7 +4110,6 @@ m_ResolvedPackages:
     - 1.2.0-exp.6
     - 1.2.0-exp.7
     - 1.2.0
-    - 1.2.1
     compatible:
     - 1.0.1
     - 1.1.0
@@ -4135,7 +4122,6 @@ m_ResolvedPackages:
     - 1.2.0-exp.6
     - 1.2.0-exp.7
     - 1.2.0
-    - 1.2.1
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -4165,7 +4151,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637594767130000000
   documentationUrl: 
@@ -4192,7 +4178,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -4245,7 +4231,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637919618520000000
   documentationUrl: 
