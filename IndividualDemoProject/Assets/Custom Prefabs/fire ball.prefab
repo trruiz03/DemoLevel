@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 3152966395316412953}
   - component: {fileID: -8290635918236385715}
   - component: {fileID: 323041225957753756}
-  - component: {fileID: 4501202543664074487}
+  - component: {fileID: 6289206358839981792}
   - component: {fileID: 3920273486562404810}
   m_Layer: 0
   m_Name: fire ball
-  m_TagString: Untagged
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334050e1a067de044832f624a577472b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4501202543664074487
+--- !u!114 &6289206358839981792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1024535982226041889}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 558acca7b80fe144088554dad49078a2, type: 3}
+  m_Script: {fileID: 11500000, guid: e269dd5d6421dc54b8071e6da11b42eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &3920273486562404810

@@ -5,7 +5,7 @@ using UnityEngine;
 public class shootingController : MonoBehaviour
 {
     public float moveForce;
-    public GameObject bullet;
+    public GameObject fireball;
     public Transform gun;
     public float shootRate;
     public float shootForce;
@@ -13,7 +13,7 @@ public class shootingController : MonoBehaviour
 
     //sound effects
     public AudioSource fireBallAudio;
-    public AudioClip fireBall;
+    public AudioClip fireBallClip;
 
     // Start is called before the first frame update
     void Start()
@@ -33,11 +33,11 @@ public class shootingController : MonoBehaviour
          if (Time.time > m_shootRateTimeStamp)
             {
                 GameObject go = (GameObject)Instantiate(
-                bullet, gun.position, gun.rotation);
+                fireball, gun.position, gun.rotation);
                 go.GetComponent<Rigidbody>().AddForce(gun.forward * shootForce);
                 m_shootRateTimeStamp = Time.time + shootRate;
             }
-        //fireBallAudio.PlayOneShot(fireBall, 1.0f);
+        //fireBallAudio.PlayOneShot(fireBallClip, 1.0f);
 
     }
 
