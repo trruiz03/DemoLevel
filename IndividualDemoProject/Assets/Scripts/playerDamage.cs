@@ -22,23 +22,27 @@ public class playerDamage : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
+        //determine that a melee weapon is interacting with the enemy
         if (other.gameObject.CompareTag("Enemy") && gameObject.CompareTag("melee"))
         {
+            //grab audio source from gameobject script is attatched to
+            AudioSource source = gameObject.GetComponent<AudioSource>();
 
-
+            //see if enemy has enemy health script, if so decrease sword damage from health
             if (other.gameObject.TryGetComponent<enemyHealth>(out enemyHealth enemyComponent))
             {
+                source.Play();
                 enemyComponent.takeDamage(swordDamage);
                 Debug.Log("Enemy has taken 1.5 damage");
-
+                
             }
 
         }
 
+        //determine that a fireball is interacting with the enemy
         else if (other.gameObject.CompareTag("Enemy") && gameObject.CompareTag("fireball"))
         {
-
+            //see if enemy has enemy health script, if so decrease fireball damage from health
             if (other.gameObject.TryGetComponent<enemyHealth>(out enemyHealth enemyComponent))
             {
                 enemyComponent.takeDamage(fireballDamage);

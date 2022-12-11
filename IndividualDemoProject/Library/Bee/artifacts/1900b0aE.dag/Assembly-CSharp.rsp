@@ -380,9 +380,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/destroyFireBall.cs"
 "Assets/Scripts/enemyHealth.cs"
+"Assets/Scripts/EnemySpawnV2.cs"
 "Assets/Scripts/OnButtonPress.cs"
 "Assets/Scripts/playerDamage.cs"
 "Assets/Scripts/powerUpScript.cs"
+"Assets/Scripts/PowerUpSpawn.cs"
 "Assets/Scripts/shootingController.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0

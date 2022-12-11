@@ -6,15 +6,12 @@ public class powerUpScript : MonoBehaviour
 {
 
     public bool powerupActive = false;
-    shootingController script;
     OnButtonPress buttonScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        script = gameObject.GetComponent<shootingController>();
-        script.enabled = false;
-
+        // grabbing on button press script that has shooting script inside it so we can toggle it on
         buttonScript = gameObject.GetComponent<OnButtonPress>();
         buttonScript.enabled = false;
         
@@ -28,13 +25,14 @@ public class powerUpScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //When interacting with the power up, destroy powerup prefab and toggle the on button press script
         if (other.CompareTag("Powerup"))
         {
             Destroy(other.gameObject);
             powerupActive = true;          
-            script.enabled = true;
             buttonScript.enabled = true;
 
+            //verify powerup status
             Debug.Log("Power Up Status: " + powerupActive);
         }
     }
