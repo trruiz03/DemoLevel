@@ -29,7 +29,7 @@ public class EnemySpawnV2 : MonoBehaviour
         //wait .1 seconds before spawing 
         while (enemyCount < 15)
         {
-            xPos = Random.Range(-205, -244);
+            xPos = Random.Range(-220, -250);
             zPos = Random.Range(100, -100);
             Instantiate(enemyPrefab, new Vector3(xPos, 0.3f, zPos), Quaternion.identity);
             yield return new WaitForSeconds(0.1f);
