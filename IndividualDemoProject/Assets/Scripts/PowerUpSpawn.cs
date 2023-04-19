@@ -25,8 +25,8 @@ public class PowerUpSpawn : MonoBehaviour
         //grab a random cordinate from the x and z position given
         //spawn powerup inside of given range in a random position
         //wait .1 seconds before spawing 
-        xPos = Random.Range(-198, -244);
-        zPos = Random.Range(100, -100);
+        xPos = Random.Range(-223, -250);
+        zPos = Random.Range(50, -50);
         Instantiate(powerUp, new Vector3(xPos, 0.4f, zPos), Quaternion.identity);
         yield return new WaitForSeconds(0.1f);
         //find the powerup position to very random spawn
