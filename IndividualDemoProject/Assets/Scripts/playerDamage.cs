@@ -7,6 +7,7 @@ public class playerDamage : MonoBehaviour
 
     private float swordDamage = 1.5f;
     private float fireballDamage = 2;
+    public AudioSource enemyAudio;
 
     // Start is called before the first frame update
     void Start()
