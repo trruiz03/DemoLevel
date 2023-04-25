@@ -62,10 +62,10 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: bb822a83fc45d8042821a9fe4e8014da
   m_FloatValues:
-    19ed18304c0e7d342928e5a1d3dda956: 0
-    b08ab751692d33c4c9940330b70af59a: -4.1973577
-    9bd193443c8f7894aba873704aad3917: -39.703533
-    3762c679879310e41a1c3ec539de63b9: 0
+    19ed18304c0e7d342928e5a1d3dda956: -80
+    b08ab751692d33c4c9940330b70af59a: 13.532477
+    9bd193443c8f7894aba873704aad3917: 20
+    3762c679879310e41a1c3ec539de63b9: -80
     629e38c98ef6e994fb87cfb49f00a555: 0.71
   m_TransitionOverrides: {}
 --- !u!244 &-1316923241240945572
@@ -109,7 +109,7 @@ AudioMixerController:
     - 7de9e9dc4824fec4c909eed9d676364d
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 4043190559156613557}
+  m_TargetSnapshot: {fileID: -3256513445704974318}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -167,10 +167,10 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 2e577de9eb38e4147b001edff0ad449d
   m_FloatValues:
-    19ed18304c0e7d342928e5a1d3dda956: -39.03094
-    b08ab751692d33c4c9940330b70af59a: -4.1973577
-    9bd193443c8f7894aba873704aad3917: 0
-    3762c679879310e41a1c3ec539de63b9: 0
+    19ed18304c0e7d342928e5a1d3dda956: 20
+    b08ab751692d33c4c9940330b70af59a: 3.2656894
+    9bd193443c8f7894aba873704aad3917: -80
+    3762c679879310e41a1c3ec539de63b9: -80
     629e38c98ef6e994fb87cfb49f00a555: 0.71
   m_TransitionOverrides: {}
 --- !u!245 &5059687352039242924
@@ -183,9 +183,10 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 0c1fc44717075d84d951dfa2a16a56a1
   m_FloatValues:
-    19ed18304c0e7d342928e5a1d3dda956: 0
-    b08ab751692d33c4c9940330b70af59a: -4.1973577
-    3762c679879310e41a1c3ec539de63b9: -43.603745
+    19ed18304c0e7d342928e5a1d3dda956: -80
+    b08ab751692d33c4c9940330b70af59a: 6.7923827
+    9bd193443c8f7894aba873704aad3917: -80
+    3762c679879310e41a1c3ec539de63b9: 20
     629e38c98ef6e994fb87cfb49f00a555: 0.71
   m_TransitionOverrides: {}
 --- !u!243 &5435311390791784368
