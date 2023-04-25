@@ -3178,7 +3178,7 @@ GameObject:
   - component: {fileID: 352509719}
   m_Layer: 0
   m_Name: LeftHand Controller
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7015,7 +7015,7 @@ GameObject:
   - component: {fileID: 732359974}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9227,7 +9227,7 @@ MonoBehaviour:
   - {fileID: 4043190559156613557, guid: 09f0e60dc26508b4eb365c498307e85e, type: 2}
   - {fileID: 5059687352039242924, guid: 09f0e60dc26508b4eb365c498307e85e, type: 2}
   - {fileID: -3256513445704974318, guid: 09f0e60dc26508b4eb365c498307e85e, type: 2}
-  transitionTime: 2
+  transitionTime: 1
 --- !u!1001 &992011077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11283,7 +11283,7 @@ GameObject:
   - component: {fileID: 1242898732}
   m_Layer: 0
   m_Name: Camera Offset
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13901,7 +13901,7 @@ GameObject:
   - component: {fileID: 1661710890}
   m_Layer: 0
   m_Name: XR Origin
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14512,8 +14512,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718912871}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -212.3, y: 0, z: 0}
-  m_LocalScale: {x: 0.7975443, y: 1, z: 1}
+  m_LocalPosition: {x: -207.7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 977813543}
@@ -14551,7 +14551,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: -35.9, y: 25, z: 167.4}
+  m_Size: {x: -32.8, y: 25, z: 167.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1781424250
 PrefabInstance:
@@ -16339,7 +16339,7 @@ GameObject:
   - component: {fileID: 2020402898}
   m_Layer: 0
   m_Name: RightHand Controller
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17055,7 +17055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041882879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -142.4, y: 0, z: 13.8}
+  m_LocalPosition: {x: -140.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17081,7 +17081,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: -108.2, y: 25, z: 167.4}
+  m_Size: {x: -95.2, y: 25, z: 167.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2041882882
 MonoBehaviour:

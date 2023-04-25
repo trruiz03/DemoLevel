@@ -38,7 +38,8 @@ public class AdaptiveAudioTrigger : MonoBehaviour {
     }
 
     void OnTriggerEnter(Collider collider)
-    {        
+    {
+        Debug.Log("Audio Works");
         AdaptiveAudioManager.Instance.AdjustAudioLevel(triggerLevel);
     }
 
