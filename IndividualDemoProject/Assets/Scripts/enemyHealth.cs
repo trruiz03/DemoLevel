@@ -10,7 +10,7 @@ public class enemyHealth : MonoBehaviour
 
     private NavMeshAgent Enemy;
     public GameObject Player;
-    public float EnemyDistanceRun = 4.0f;
+    private float EnemyDistanceRun = 12.0f;
 
     private int xPos;
     private int zPos;
@@ -55,8 +55,8 @@ public class enemyHealth : MonoBehaviour
         //grab a random cordinate from the x and z position given
         //spawn enemies inside of given range in random positions
         //wait .1 seconds before spawing 
-            xPos = Random.Range(30, -30);
-            zPos = Random.Range(100, -100);
+            xPos = Random.Range(20, -10);
+            zPos = Random.Range(50, -50);
             transform.position = transform.position + new Vector3(xPos, yPos, zPos);
             yield return new WaitForSeconds(0.1f);
             Debug.Log("Enemy spawned at: " + this.gameObject.transform.position);

@@ -37,13 +37,10 @@ public class AdaptiveAudioTrigger : MonoBehaviour {
         return Color.black;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider collider)
     {
-        if(other.CompareTag("Player"))
-            {
             Debug.Log("Audio Works");
             AdaptiveAudioManager.Instance.AdjustAudioLevel(triggerLevel);
-        }
-
+        
     }
 }
