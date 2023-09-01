@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - fireball
   - melee
+  - Boss
   layers:
   - Default
   - TransparentFX

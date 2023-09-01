@@ -46,6 +46,7 @@ public class enemyHealth : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("Enemy is dead");
+            
         }
     }
 
@@ -60,5 +61,11 @@ public class enemyHealth : MonoBehaviour
             transform.position = transform.position + new Vector3(xPos, yPos, zPos);
             yield return new WaitForSeconds(0.1f);
             Debug.Log("Enemy spawned at: " + this.gameObject.transform.position);
+    }
+
+    private void OnDestroy()
+    {
+        KilledEnemyTtacker.Instance.kills++;
+        Debug.Log("Enemies Killed: " + KilledEnemyTtacker.Instance.kills);
     }
 }
