@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 17fc5bf8102c90c4ba880deedcd36337
+guid: b1d5c602b141b4245b8611a730cc2d50
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 4a6f7643e3b6fc546bd1edd7a83b7104, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: woodColorGrid
+    second: {fileID: 2800000, guid: c279e40d44da8c040b0c732c3e924bb1, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
