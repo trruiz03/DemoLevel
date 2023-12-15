@@ -9,6 +9,7 @@ TagManager:
   - fireball
   - melee
   - Boss
+  - Anchor
   layers:
   - Default
   - TransparentFX

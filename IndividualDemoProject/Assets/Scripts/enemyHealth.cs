@@ -10,11 +10,9 @@ public class enemyHealth : MonoBehaviour
 
     private NavMeshAgent Enemy;
     public GameObject Player;
-    private float EnemyDistanceRun = 12.0f;
 
     private int xPos;
     private int zPos;
-    private float yPos = 0.4f;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,15 +25,7 @@ public class enemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(transform.position, Player.transform.position);
 
-        if(distance < EnemyDistanceRun)
-        {
-            Vector3 dirToPlayer = transform.position - Player.transform.position;
-            Vector3 newPos = transform.position - dirToPlayer;
-
-            Enemy.SetDestination(newPos);
-        }
     }
 
     public void takeDamage (float damageAmount)
@@ -58,7 +48,7 @@ public class enemyHealth : MonoBehaviour
         //wait .1 seconds before spawing 
             xPos = Random.Range(20, -10);
             zPos = Random.Range(50, -50);
-            transform.position = transform.position + new Vector3(xPos, yPos, zPos);
+            transform.position = transform.position + new Vector3(xPos, 0f, zPos);
             yield return new WaitForSeconds(0.1f);
             Debug.Log("Enemy spawned at: " + this.gameObject.transform.position);
     }
