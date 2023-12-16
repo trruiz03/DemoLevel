@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour, Damageable, EnemyMoveable, TriggerCheckable
 {
@@ -27,6 +28,10 @@ public class Enemy : MonoBehaviour, Damageable, EnemyMoveable, TriggerCheckable
     public float RandomMovementRange = 1f;
     public float RandomMovementSpeed = 5f;
 
+    private NavMeshAgent EnemyNav;
+    public GameObject Player;
+    private float EnemyDistanceRun = 12.0f;
+
     //_______________________________________________
 
     private void Awake()
@@ -48,11 +53,22 @@ public class Enemy : MonoBehaviour, Damageable, EnemyMoveable, TriggerCheckable
         RB = GetComponent<Rigidbody>();
 
         StateMachine.Initialize(IdleSate);
+        EnemyNav = GetComponent<NavMeshAgent>();
     }
 
     private void Update()
     {
         StateMachine.CurrentEnemyState.FrameUpdate();
+
+        float distance = Vector3.Distance(transform.position, Player.transform.position);
+
+        if (distance < EnemyDistanceRun)
+        {
+            Vector3 dirToPlayer = transform.position - Player.transform.position;
+            Vector3 newPos = transform.position - dirToPlayer;
+
+            //Enemy.SetDestination(newPos);
+        }
     }
 
     private void FixedUpdate()
