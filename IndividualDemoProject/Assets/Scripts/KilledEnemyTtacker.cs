@@ -34,7 +34,7 @@ public class KilledEnemyTtacker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(kills == 15f)
+        if(kills == 5f)
         {
             bossEnemy.gameObject.SetActive(true);
         }

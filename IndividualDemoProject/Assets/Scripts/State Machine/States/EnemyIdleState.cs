@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyIdleState : EnemyState
 {
-    private Vector3 targetPos;
-    private Vector3 direction;
+
+
     public EnemyIdleState(Enemy enemy, EnemyStateMachine enemyStateMachine) : base(enemy, enemyStateMachine)
     {
     }
@@ -14,8 +16,6 @@ public class EnemyIdleState : EnemyState
     {
         Debug.Log("I'm an idle Enemy");
         base.EnterState();
-
-        targetPos = GetRandomPosInCircle();
     }
 
     public override void ExitState()
@@ -32,14 +32,6 @@ public class EnemyIdleState : EnemyState
             enemy.StateMachine.ChangeState(enemy.WalkState);
         }
 
-        direction = (targetPos = enemy.transform.position).normalized;
-
-        enemy.EnemyMove(direction * enemy.RandomMovementSpeed);
-
-        if ((enemy.transform.position = targetPos).sqrMagnitude < 0.01f)
-        {
-            targetPos = GetRandomPosInCircle();
-        }
     }
 
     public override void PhysicsUpdate()
@@ -47,8 +39,4 @@ public class EnemyIdleState : EnemyState
         base.PhysicsUpdate();
     }
 
-    private Vector3 GetRandomPosInCircle()
-    {
-        return enemy.transform.position + (Vector3)Random.insideUnitCircle * enemy.RandomMovementRange;
-    }
 }
