@@ -6,14 +6,10 @@ public class powerUpScript : MonoBehaviour
 {
 
     public bool powerupActive = false;
-    OnButtonPress buttonScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        // grabbing on button press script that has shooting script inside it so we can toggle it on
-        buttonScript = gameObject.GetComponent<OnButtonPress>();
-        buttonScript.enabled = false;
         
     }
 
@@ -30,7 +26,6 @@ public class powerUpScript : MonoBehaviour
         {
             Destroy(other.gameObject);
             powerupActive = true;          
-            buttonScript.enabled = true;
 
             //verify powerup status
             Debug.Log("Power Up Status: " + powerupActive);

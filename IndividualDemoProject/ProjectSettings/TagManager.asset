@@ -8,11 +8,13 @@ TagManager:
   - Enemy
   - fireball
   - melee
+  - Boss
+  - Anchor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Weapon
   - Water
   - UI
   - 
