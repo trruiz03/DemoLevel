@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour, Damageable, EnemyMoveable, TriggerCheckable
             Vector3 dirToPlayer = transform.position - Player.transform.position;
             Vector3 newPos = transform.position - dirToPlayer;
 
-            //Enemy.SetDestination(newPos);
+            EnemyNav.SetDestination(newPos);
         }
     }
 

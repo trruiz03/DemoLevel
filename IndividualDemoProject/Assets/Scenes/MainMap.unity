@@ -545,6 +545,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &46997070
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4661,6 +4662,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &340919708
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5001,7 +5003,7 @@ GameObject:
   - component: {fileID: 352509719}
   m_Layer: 0
   m_Name: LeftHand Controller
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6358,7 +6360,7 @@ PrefabInstance:
     - target: {fileID: 9047818009176198464, guid: f88950be6583a3741af90b72b35b8d87,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9047818009176198467, guid: f88950be6583a3741af90b72b35b8d87,
         type: 3}
@@ -6507,6 +6509,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &473546922
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9029,6 +9032,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &679086630
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11149,6 +11153,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &811455599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14890,6 +14895,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 2
   RandomMovementSpeed: 5
+  Player: {fileID: 1661710883}
 --- !u!1 &1094879457
 GameObject:
   m_ObjectHideFlags: 0
@@ -15078,6 +15084,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1095277293
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15746,6 +15753,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1153265461
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17371,6 +17379,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1251337429
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17968,6 +17977,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1307307925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18285,6 +18295,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1335710832
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21405,6 +21416,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1642646498
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23926,6 +23938,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1763390316
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24434,6 +24447,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1817375690
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25452,6 +25466,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!54 &1898635515
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27129,7 +27144,7 @@ GameObject:
   - component: {fileID: 2020402898}
   m_Layer: 0
   m_Name: RightHand Controller
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30563,6 +30578,7 @@ MonoBehaviour:
     type: 3}
   RandomMovementRange: 0
   RandomMovementSpeed: 3
+  Player: {fileID: 1661710883}
 --- !u!23 &4539702729288402212
 MeshRenderer:
   m_ObjectHideFlags: 0

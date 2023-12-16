@@ -11,6 +11,8 @@ public class UIManagerScript : MonoBehaviour
     public GameObject backButton;
     public GameObject gameTitle;
     public GameObject detailPage;
+    public GameObject controlButton;
+    public GameObject controlPage;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,5 +46,15 @@ public class UIManagerScript : MonoBehaviour
         gameTitle.gameObject.SetActive(true);
         startButton.gameObject.SetActive(true);
         detailButton.gameObject.SetActive(true);
+    }
+
+    public void Controls()
+    {
+        gameTitle.gameObject.SetActive(false);
+        startButton.gameObject.SetActive(false);
+        detailButton.gameObject.SetActive(false);
+        detailPage.gameObject.SetActive(false);
+        controlPage.gameObject.SetActive(true);
+        backButton.gameObject.SetActive(true);
     }
 }
