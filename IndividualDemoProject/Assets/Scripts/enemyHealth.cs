@@ -8,16 +8,12 @@ public class enemyHealth : MonoBehaviour
 
     [SerializeField] float health, maxHealth = 5f;
 
-    private NavMeshAgent Enemy;
-    public GameObject Player;
-
     private int xPos;
     private int zPos;
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
-        Enemy = GetComponent<NavMeshAgent>();
 
         StartCoroutine(EnemyDrop());
     }

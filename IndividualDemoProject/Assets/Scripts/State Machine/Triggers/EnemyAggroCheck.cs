@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyAggroCheck : MonoBehaviour
 {
+    // Start is called before the first frame update
     public GameObject PlayerTarget { get; set; }
     private Enemy enemy;
 
@@ -12,11 +13,12 @@ public class EnemyAggroCheck : MonoBehaviour
         PlayerTarget = GameObject.FindGameObjectWithTag("Player");
 
         enemy = GetComponentInParent<Enemy>();
+
     }
 
     private void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject == PlayerTarget)
+        if (collision.gameObject == PlayerTarget)
         {
             enemy.setAggroStatus(true);
         }
@@ -24,7 +26,7 @@ public class EnemyAggroCheck : MonoBehaviour
 
     private void OnTriggerExit(Collider collision)
     {
-        if(collision.gameObject == PlayerTarget)
+        if (collision.gameObject == PlayerTarget)
         {
             enemy.setAggroStatus(false);
         }

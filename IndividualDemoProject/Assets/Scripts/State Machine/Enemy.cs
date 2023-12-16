@@ -24,8 +24,8 @@ public class Enemy : MonoBehaviour, Damageable, EnemyMoveable, TriggerCheckable
 
     public Rigidbody fireball;
 
-    public float RandomMovementRange = 15f;
-    public float RandomMovementSpeed = 2f;
+    public float RandomMovementRange = 1f;
+    public float RandomMovementSpeed = 5f;
 
     //_______________________________________________
 
